@@ -2102,3 +2102,6 @@ java.util.zip.ZipException: invalid bit length repeat
 [27Oct2024 04:34:38.704] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
 [27Oct2024 04:34:38.705] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
 [27Oct2024 04:34:38.739] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 3151
+[27Oct2024 05:08:13.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Oct2024 05:08:13.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Oct2024 05:08:13.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds

@@ -1,0 +1,2 @@
+mods/the_bumblezone-7.7.4+1.21.1-neoforge.jar filter=lfs diff=lfs merge=lfs -text
+mods/minecolonies-1.1.727-1.21.1-snapshot.jar filter=lfs diff=lfs merge=lfs -text

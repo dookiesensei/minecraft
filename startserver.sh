@@ -70,3 +70,13 @@ do
     echo "Restarting automatically in 10 seconds (press Ctrl + C to cancel)"
     sleep 10
 done
+
+# Define a cleanup function for Git commit and push
+cleanup() {
+    echo "Script interrupted. Committing and pushing changes to Git."
+    git add .
+    git commit -m "Automatic commit on script termination at $(date)"
+    git push || echo "Git push failed. Please check your connection or Git credentials."
+}
+# Trap termination signals and call cleanup
+trap cleanup INT TERM
